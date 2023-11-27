@@ -88,4 +88,7 @@ void main() {
 //   }
 // }
 
+
+// jar nam likbo banglai asbe.... 3ta product nibo, oita jog kore 20% minus kore ja result hoi seta banglai dekhabo
+
 }
