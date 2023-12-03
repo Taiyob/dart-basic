@@ -1,5 +1,8 @@
+import 'dart:io';
+
 void main() {
-  // type 1
+  internetChecker();
+  //type 1
   String message = "Dart is good";
   Function showMessage = () {
     message = "Dart is awesome";
@@ -17,4 +20,14 @@ void main() {
     return say();
   };
   talk();
+}
+Future internetChecker() async {
+  try {
+    await InternetAddress.lookup('google.com');
+    print("have internet");
+  } on SocketException {
+    print("No ineternet");
+  } catch (e) {
+    print(e);
+  }
 }
