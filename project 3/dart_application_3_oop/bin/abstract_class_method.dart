@@ -18,6 +18,25 @@ abstract class Shape {
   }
 }
 
+class Building implements Shape{
+  @override
+  void draw() {
+    // TODO: implement draw
+  }
+  
+  @override
+  int? x;
+  
+  @override
+  int? y;
+  
+  @override
+  void myNormalFuction() {
+    // TODO: implement myNormalFuction
+  }
+
+}
+
 // abstract class k parents class korle sob somoi abstract class er method k override korte hbe.
 class Rectangle extends Shape {
   void draw() {
