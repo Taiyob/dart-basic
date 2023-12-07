@@ -1,6 +1,6 @@
 void main() {
   var cir = circle;
-  //cir.pi;   not allwed when static
+  //cir.pi;   //not allwed when static
   print(circle.pi);
   circle.calculateArea();
 }
